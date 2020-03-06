@@ -6,7 +6,7 @@
 
 body {
     background-size: 100vw;
-    background-repeat: no-repeat;
+    background-repeat: round;
     color: black;
 }
 
@@ -39,5 +39,11 @@ h2 {
 @media(max-width: 700px){
     #time {
         font-size: 6rem;
+    }
+    
+    body{
+        background-size: cover;
+        height: auto;
+        background-repeat: no-repeat;
     }
 }
