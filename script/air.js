@@ -31,7 +31,6 @@ const weather = {
   }
 };
 
-// const key = "c68fc769-a4d3-41d3-bb08-2609d7abebe0";
 
 // Check if API key is set in Local Storage
 function checkApiInLocalStorage(){
