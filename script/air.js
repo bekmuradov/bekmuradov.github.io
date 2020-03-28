@@ -268,6 +268,7 @@ function unhealthyAirForSensitife() {
     if (window.matchMedia("(orientation: landscape)").matches) {
       // you're in LANDSCAPE mode
       airQualityIndex.style.marginBottom = "0.8em";
+      
    } else {
     airQualityIndex.style.marginBottom = "0.6em";
    }
@@ -276,6 +277,5 @@ function unhealthyAirForSensitife() {
     airQualityContainer.lastElementChild.style.marginRight = "-6em";
     airQualityIndex.style.fontSize = "100%";
     airQualityDesc.style.fontSize = "70%";
-    console.log("yes");
   }
 }
