@@ -94,8 +94,7 @@ function setPosition(position) {
   let latitude = position.coords.latitude;
   let longitude = position.coords.longitude;
 
-  // API call every hour
-  setInterval(getAir(latitude, longitude), 3600000);
+  getAir(latitude, longitude);
 }
 
 // Show Error if there is any issues with geolocation service
