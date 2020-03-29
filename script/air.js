@@ -52,7 +52,7 @@ function checkApiInLocalStorage(){
 function setApiKey(e){
   if(e.type === "keydown"){
       // Make sure enter is pressed
-      if(e.code === "Enter") {
+      if(e.code === "Enter" || e.key === "Enter") {
         if (validateInputValue(e) !== false) {
           localStorage.setItem("apiKey", e.target.value);
           getLocation();
